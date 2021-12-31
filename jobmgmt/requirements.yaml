@@ -1,0 +1,72 @@
+dependencies:
+  - name: jobmgmt-altdev
+    repository: "file://envs/jobmgmt-altdev"
+    version: ">= 0.0.1"
+    tags:
+      - altdev
+    import-values:
+      - data    
+
+  - name: jobmgmt-dev
+    repository: "file://envs/jobmgmt-dev"
+    version: ">= 0.0.1"
+    tags:
+      - dev
+    import-values:
+      - data
+
+  - name: jobmgmt-qa
+    repository: "file://envs/jobmgmt-qa"
+    version: ">= 0.0.1"
+    tags:
+      - qa
+    import-values:
+      - data
+
+  - name: jobmgmt-uat
+    repository: "file://envs/jobmgmt-uat"
+    version: ">= 0.0.1"
+    tags:
+      - uat
+    import-values:
+      - data      
+
+  - name: jobmgmt-perf
+    repository: "file://envs/jobmgmt-perf"
+    version: ">= 0.0.1"
+    tags:
+      - perf
+    import-values:
+      - data  
+
+  - name: jobmgmt-trng
+    repository: "file://envs/jobmgmt-trng"
+    version: ">= 0.0.1"
+    tags:
+      - trng
+    import-values:
+      - data 
+
+  - name: jobmgmt-prod
+    repository: "file://envs/jobmgmt-prod"
+    version: ">= 0.0.1"
+    tags:
+      - prod
+    import-values:
+      - data 
+
+  - name: jobmgmt-altqa
+    repository: "file://envs/jobmgmt-altqa"
+    version: ">= 0.0.1"
+    tags:
+      - altqa
+    import-values:
+      - data      
+
+  - name: jobmgmt-prdspt
+    repository: "file://envs/jobmgmt-prdspt"
+    version: ">= 0.0.1"
+    tags:
+      - prdspt
+    import-values:
+      - data   
